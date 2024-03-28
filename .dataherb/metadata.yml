@@ -1,0 +1,42 @@
+name: bg3-reviews-dataset
+description: Dataset of around 309,103 Steam user reviews of Baldurs Gate 3 updated up to 14 December 2023. The reviews contain both early access version and full release version. The reviews language is English. Data obtained from Steams provided API
+contributors:
+- name: Haris Yafie
+data:
+- name: BG3_reviews_dataset.csv
+  description: 
+  format: csv
+  size: 87.156.892 Bytes
+  fields:
+  - name: recommendationid
+    description: Unique ID for the recommendation
+  - name: language
+    description: Language of the review
+  - name: review
+    description: Text of the review
+  - name: timestamp_created
+    description: Timestamp when the review was created
+  - name: timestamp_updated
+    description: Timestamp when the review was last updated
+  - name: voted_up
+    description: Whether the recommendation was voted up
+  - name: votes_up
+    description: Number of upvotes
+  - name: votes_funny
+    description: Number of funny votes
+  - name: weighted_vote_score
+    description: Weighted vote score
+  - name: written_during_early_access
+    description: Whether the review was written during early access
+  - name: comment_count
+    description: Number of comments on the review
+  - name: steam_purchase
+    description: Whether the reviewer purchased the game on Steam
+  - name: received_for_free
+    description: Whether the reviewer received the game for free
+license:
+- name: CC0: Public Domain
+  link: https://creativecommons.org/publicdomain/zero/1.0/
+references:
+- name: [Name of the first reference]
+  link: [https://link_to_your_first_reference]
