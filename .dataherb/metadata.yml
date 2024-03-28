@@ -38,5 +38,5 @@ license:
 - name: CC0: Public Domain
   link: https://creativecommons.org/publicdomain/zero/1.0/
 references:
-- name: [Name of the first reference]
-  link: [https://link_to_your_first_reference]
+- name: Baldurs Gate 3 Steam Reviews
+  link: https://www.kaggle.com/datasets/harisyafie/baldurs-gate-3-steam-reviews/data
